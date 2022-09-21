@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+header div {
+    text-align: center;
+    padding:  32px;
+}
+
+section p {
+    float: right;
+    padding: 8px;
+}
+
+body {
+    background-image: url(./assets/Fundo.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+
+    display: grid;
+    gap: 24px;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -0.18;
+    color: #A1A1AA;
+} 
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+div {
+    color: white;
+}
+
+.CSGO img {
+    border-radius: 8px;
+    transition: transform .3s;
+}
+
+.CSGO img:hover {
+    transform: scale(1.1);
+}
+
+.Minecraft img {
+    border-radius: 8px;
+    transition: transform .3s;
+}
+
+.Minecraft img:hover {
+    transform: scale(1.1);
+}
+
+.Terraria img {
+    border-radius: 8px;
+    transition: transform .3s;
+}
+
+.Terraria img:hover {
+    transform: scale(1.1)
+}
+
